@@ -1,0 +1,78 @@
+@font-face {
+  font-family: OMORI;
+  src: url("../fonts/omori_game2-webfont.ttf");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 32px;
+  font-family: OMORI;
+}
+
+body {
+  background-color: #394248;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  padding: 1.2rem;
+}
+
+.soprano-notes,
+.alto-notes {
+  -webkit-margin-after: 1.1rem;
+          margin-block-end: 1.1rem;
+}
+
+.note-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.7rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.note {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 80px;
+  height: 80px;
+  color: #68aea7;
+  background-color: #fff9ef;
+  border-radius: 50%;
+  outline: 2px solid #d2bd8e;
+  outline-offset: -7px;
+  -webkit-transition: all 0.07s ease;
+  transition: all 0.07s ease;
+  cursor: pointer;
+}
+
+.active {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  background-color: #68aea7;
+  color: #fff9ef;
+}
+/*# sourceMappingURL=styles.css.map */
