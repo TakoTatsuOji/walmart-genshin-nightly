@@ -1,7 +1,7 @@
 
 # Short Project Series 4
 ## Walmart Genshin Nightly
-[Website Link]()
+[Website Link](https://takotatsuoji.github.io/walmart-genshin-nightly/)
 
 ### Mobile App Link:
 [Click here](https://play.google.com/store/apps/details?id=genshinmusic.specy.twa&pcampaignid=web_share)
