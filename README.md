@@ -1,5 +1,4 @@
-
-# Short Project Series 4
+# Mini Project Series 4
 ## Walmart Genshin Nightly
 [Website Link](https://takotatsuoji.github.io/walmart-genshin-nightly/)
 
